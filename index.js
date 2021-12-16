@@ -40,7 +40,10 @@ Airplane.prototype.land = function () {
 */
 
 function Person() {
-  
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
 }
 
 
@@ -64,7 +67,7 @@ function Person() {
 */
 
 function Car() {
-  
+
 }
 
 
